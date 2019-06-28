@@ -5,7 +5,7 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 module.exports = {
   entry: { main: './src/index.js' },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, ''),
     filename: '[name].[chunkhash].js'
   },
   module: {
